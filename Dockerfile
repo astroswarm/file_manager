@@ -3,6 +3,7 @@ ARG ARCH
 FROM astroswarm/base-$ARCH:latest
 
 RUN apt-get update && apt-get -y install \
+  build-essential \
   python-dev \
   python-pip
 
