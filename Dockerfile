@@ -1,6 +1,4 @@
-ARG ARCH
-
-FROM astroswarm/base-$ARCH:latest
+FROM astroswarm/base:latest
 
 RUN apt-get update && apt-get -y install \
   build-essential \
