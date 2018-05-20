@@ -1,0 +1,13 @@
+---
+image: "astroswarm/file_manager:latest"
+manifests:
+  -
+    image: "astroswarm/file_manager-x86_64:latest"
+    platform:
+      architecture: amd64
+      os: linux
+  -
+    image: "astroswarm/file_manager-armv7l:latest"
+    platform:
+      architecture: arm
+      os: linux
